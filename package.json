@@ -2,6 +2,7 @@
   "name": "app1",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -30,8 +31,9 @@
     "webpack-cli": "^6.0.1"
   },
   "browserslist": [
-    "> 0.2%",
+    "> 0.5%",
     "not dead",
-    "IE 11"
+    "not IE 11"
   ]
 }
+
